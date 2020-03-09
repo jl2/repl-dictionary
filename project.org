@@ -1,0 +1,329 @@
+* repl-dictionary
+** About
+A dictionary for the REPL.
+
+#+BEGIN_SRC lisp :results code raw
+(ql:quickload :repl-dictionary)
+(rdict:define "boreal")
+#+END_SRC
+
+#+RESULTS:
+({
+  "meta": {
+    "id": "boreal",
+    "uuid": "28955b7f-5a5c-47f3-8302-19932ab87398",
+    "sort": "020355200",
+    "src": "collegiate",
+    "section": "alpha",
+    "stems": [
+      "boreal"
+    ],
+    "offensive": false
+  },
+  "hwi": {
+    "hw": "bo*re*al",
+    "prs": [
+      {
+        "mw": "ˈbȯr-ē-əl",
+        "sound": {
+          "audio": "boreal01",
+          "ref": "c",
+          "stat": "1"
+        }
+      }
+    ]
+  },
+  "fl": "adjective",
+  "def": [
+    {
+      "sseq": [
+        [
+          [
+            "sense",
+            {
+              "sn": "1",
+              "dt": [
+                [
+                  "text",
+                  "{bc}of, relating to, or located in northern regions "
+                ],
+                [
+                  "vis",
+                  [
+                    {
+                      "t": "{wi}boreal{/wi} waters"
+                    }
+                  ]
+                ]
+              ]
+            }
+          ]
+        ],
+        [
+          [
+            "sense",
+            {
+              "sn": "2",
+              "dt": [
+                [
+                  "text",
+                  "{bc}of, relating to, or comprising the northern biotic area characterized especially by dominance of coniferous forests"
+                ]
+              ]
+            }
+          ]
+        ]
+      ]
+    }
+  ],
+  "et": [
+    [
+      "text",
+      "Middle English {it}boriall{/it}, from Late Latin {it}borealis{/it}, from Latin {it}boreas{/it} north wind, north, from Greek, from {it}Boreas{/it}"
+    ]
+  ],
+  "date": "15th century{ds||1||}",
+  "shortdef": [
+    "of, relating to, or located in northern regions",
+    "of, relating to, or comprising the northern biotic area characterized especially by dominance of coniferous forests"
+  ]
+}
+)
+("boreal" {
+  "meta": {
+    "id": "boreal",
+    "uuid": "28955b7f-5a5c-47f3-8302-19932ab87398",
+    "sort": "020355200",
+    "src": "collegiate",
+    "section": "alpha",
+    "stems": [
+      "boreal"
+    ],
+    "offensive": false
+  },
+  "hwi": {
+    "hw": "bo*re*al",
+    "prs": [
+      {
+        "mw": "ˈbȯr-ē-əl",
+        "sound": {
+          "audio": "boreal01",
+          "ref": "c",
+          "stat": "1"
+        }
+      }
+    ]
+  },
+  "fl": "adjective",
+  "def": [
+    {
+      "sseq": [
+        [
+          [
+            "sense",
+            {
+              "sn": "1",
+              "dt": [
+                [
+                  "text",
+                  "{bc}of, relating to, or located in northern regions "
+                ],
+                [
+                  "vis",
+                  [
+                    {
+                      "t": "{wi}boreal{/wi} waters"
+                    }
+                  ]
+                ]
+              ]
+            }
+          ]
+        ],
+        [
+          [
+            "sense",
+            {
+              "sn": "2",
+              "dt": [
+                [
+                  "text",
+                  "{bc}of, relating to, or comprising the northern biotic area characterized especially by dominance of coniferous forests"
+                ]
+              ]
+            }
+          ]
+        ]
+      ]
+    }
+  ],
+  "et": [
+    [
+      "text",
+      "Middle English {it}boriall{/it}, from Late Latin {it}borealis{/it}, from Latin {it}boreas{/it} north wind, north, from Greek, from {it}Boreas{/it}"
+    ]
+  ],
+  "date": "15th century{ds||1||}",
+  "shortdef": [
+    "of, relating to, or located in northern regions",
+    "of, relating to, or comprising the northern biotic area characterized especially by dominance of coniferous forests"
+  ]
+}
+)
+
+#+BEGIN_SRC lisp :results code raw
+(ql:quickload :repl-dictionary)
+(rdict:alternatives-to "forest")
+#+END_SRC
+
+#+RESULTS:
+{
+  "meta": {
+    "id": "forest",
+    "uuid": "64464cbc-90a7-4aa1-9f1a-68c99d080e87",
+    "src": "coll_thes",
+    "section": "alpha",
+    "target": {
+      "tuuid": "28924e3c-57bc-4ea6-b538-784e1eb16609",
+      "tsrc": "collegiate"
+    },
+    "stems": [
+      "forest",
+      "forestal",
+      "forested",
+      "forestial",
+      "forests"
+    ],
+    "syns": [
+      [
+        "forestland",
+        "timber",
+        "timberland",
+        "wood(s)",
+        "woodland"
+      ]
+    ],
+    "ants": [],
+    "offensive": false
+  },
+  "hwi": {
+    "hw": "forest"
+  },
+  "fl": "noun",
+  "def": [
+    {
+      "sseq": [
+        [
+          [
+            "sense",
+            {
+              "dt": [
+                [
+                  "text",
+                  "a dense growth of trees and shrubs covering a large area "
+                ],
+                [
+                  "vis",
+                  [
+                    {
+                      "t": "the endless {it}forest{/it} that the first European settlers encountered"
+                    }
+                  ]
+                ]
+              ],
+              "syn_list": [
+                [
+                  {
+                    "wd": "forestland"
+                  },
+                  {
+                    "wd": "timber"
+                  },
+                  {
+                    "wd": "timberland"
+                  },
+                  {
+                    "wd": "wood(s)"
+                  },
+                  {
+                    "wd": "woodland"
+                  }
+                ]
+              ],
+              "rel_list": [
+                [
+                  {
+                    "wd": "brake"
+                  },
+                  {
+                    "wd": "brushwood"
+                  },
+                  {
+                    "wd": "chaparral"
+                  },
+                  {
+                    "wd": "coppice"
+                  },
+                  {
+                    "wd": "copse"
+                  },
+                  {
+                    "wd": "covert"
+                  },
+                  {
+                    "wd": "grove"
+                  },
+                  {
+                    "wd": "scrubland"
+                  },
+                  {
+                    "wd": "stand"
+                  },
+                  {
+                    "wd": "thicket"
+                  }
+                ],
+                [
+                  {
+                    "wd": "greenwood"
+                  },
+                  {
+                    "wd": "wildwood"
+                  }
+                ],
+                [
+                  {
+                    "wd": "woodlot"
+                  }
+                ],
+                [
+                  {
+                    "wd": "arboretum"
+                  },
+                  {
+                    "wd": "plantation"
+                  }
+                ]
+              ]
+            }
+          ]
+        ]
+      ]
+    }
+  ],
+  "shortdef": [
+    "a dense growth of trees and shrubs covering a large area"
+  ]
+}
+
+** License
+ISC
+
+
+Copyright (c) 2020 Jeremiah LaRocco <jeremiah_larocco@fastmail.com>
+
+
+
+
+* TODO
+** Parse JSON responses
